@@ -1,0 +1,259 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "Hi there!",
+          "How are you?",
+          "Is anyone there?",
+          "Hey!",
+          "Hola!",
+          "Hello!",
+          "Greetings!",
+          "What's up?",
+          "How's it going?",
+          "Hi, how can I assist?"
+        ],
+        "responses": [
+          "Hello, thanks for asking!",
+          "Good to see you.",
+          "Hi there, how can I help?",
+          "Greetings! How can I assist you today?",
+          "Hello! How's your day going?",
+          "Hey! How can I assist you?",
+          "Hola! How can I assist you?",
+          "Hi there! What can I do for you today?",
+          "Hello! How can I be of service?",
+          "Hey there! How can I assist you?"
+        ]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": [
+          "Bye.",
+          "See you later!",
+          "Goodbye!",
+          "Nice chatting to you, bye.",
+          "Till next time!!",
+          "Farewell.",
+          "Take care.",
+          "Catch you later.",
+          "Goodbye for now.",
+          "See you soon!"
+        ],
+        "responses": [
+          "See you!",
+          "Have a nice day.",
+          "Bye! Come back again soon.",
+          "Farewell! Take care.",
+          "Till next time! Have a great day.",
+          "Goodbye! It was nice talking to you.",
+          "Take care! See you soon.",
+          "Goodbye for now! Have a wonderful day.",
+          "See you soon! Don't be a stranger.",
+          "Thanks for chatting!"
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": [
+          "Thanks!",
+          "Thank you",
+          "That's helpful",
+          "Awesome, thanks",
+          "Thanks for helping me",
+          "I appreciate it.",
+          "You've been a great help.",
+          "Thanks a million!",
+          "I'm grateful.",
+          "You're awesome!"
+        ],
+        "responses": [
+          "Happy to help!",
+          "Any time!",
+          "My pleasure.",
+          "You're welcome!",
+          "Glad I could assist.",
+          "I'm here to help.",
+          "You're very welcome!",
+          "Thanks a million! I'm here to assist.",
+          "It was my pleasure assisting you.",
+          "You're awesome!"
+        ]
+      },
+      {
+        "tag": "noanswer",
+        "patterns": ["", "", "", "", ""],
+        "responses": [
+          "Sorry, can't understand you",
+          "Please give me more info",
+          "Not sure I understand",
+          "I'm having trouble comprehending. Can you rephrase?",
+          "I didn't quite get that. Can you provide more details?"
+        ]
+      },
+      {
+        "tag": "options",
+        "patterns": [
+          "I am bored today!",
+          "What you can do?",
+          "I don't know what to do",
+          "What help you provide?",
+          "How you can be helpful?",
+          "What support is offered",
+          "I need some ideas",
+          "I'm feeling unproductive",
+          "Suggest something interesting",
+          "Can you recommend an activity?"
+        ],
+        "responses": [
+          "I can guide you through an activity to spend the day. What's your hobby?",
+          "We can plan out for a daily activity. What would you like doing?",
+          "Feeling bored? Let's find something exciting to do!",
+          "Don't worry! I've got plenty of ideas to keep you engaged.",
+          "Let's beat that boredom together. What interests you?",
+          "Feeling unproductive? Let's make the most of your day.",
+          "Tell me more about your interests, and I'll suggest something fun!",
+          "No worries! I'm here to provide suggestions and support.",
+          "I'm here to help you make the most of your day. What are you in the mood for?",
+          "Looking for something interesting to do? I've got you covered."
+        ]
+      },
+      {
+        "tag": "art",
+        "patterns": [
+          "I like art",
+          "I like craft",
+          "art and craft",
+          "drawing",
+          "sketching?",
+          "painting",
+          "Art is my passion",
+          "Creative expression",
+          "Artistic pursuits",
+          "I'm an artist at heart"
+        ],
+        "responses": [
+          "You can draw a geometric art and color it!",
+          "You can sketch a scenery today.",
+          "Try Dotted Mandala art today!",
+          "Exploring your creative side? Let's get artsy!",
+          "Art is a fantastic way to express yourself. What do you feel like creating?",
+          "Feeling artistic? Let's dive into the world of art!",
+          "Embrace your artistic side today!",
+          "Art and craft can be so fulfilling. What's your medium of choice?",
+          "Artistic pursuits are always a great choice. What's inspiring you today?",
+          "Being an artist at heart is wonderful! What art form do you enjoy most?"
+        ]
+      },
+      {
+        "tag": "music",
+        "patterns": [
+          "I like music",
+          "I like songs",
+          "songs and music",
+          "pop",
+          "Music is my jam",
+          "Can't live without music",
+          "Give me a song recommendation",
+          "Music lover",
+          "Let's talk about music",
+          "I'm in the mood for some tunes"
+        ],
+        "responses": [
+          "You can listen to songs on FM radio",
+          "You can record a video to post on a social media website",
+          "Music is the universal language. What's your favorite genre?",
+          "A world of music awaits you. What's your mood today?",
+          "Tunes can brighten any day. What song is on your playlist?",
+          "Music is life! What's your all-time favorite song?",
+          "Let's talk music! What's your go-to genre?",
+          "Music is my jam too! Any particular artist you're into?",
+          "I'm here to chat about music anytime. Have a favorite artist?",
+          "Ready for some musical inspiration? Let's groove!"
+        ]
+      },
+      {
+        "tag": "cooking",
+        "patterns": [
+          "I like cooking",
+          "I like baking",
+          "eating pizza",
+          "cooking",
+          "food",
+          "Cooking is my hobby",
+          "Foodie at heart",
+          "What should I cook today?",
+          "Recipe ideas",
+          "Let's talk about food"
+        ],
+        "responses": [
+          "You can try baking a cake today!",
+          "You can cook a pizza today",
+          "Cooking is a delightful art. What cuisine do you fancy?",
+          "Food is love! What's your favorite dish to cook?",
+          "Cooking can be so rewarding. What's on the menu today?",
+          "Hungry for some culinary adventures? Let's cook up a storm!",
+          "Cooking is a fantastic hobby! What's your signature dish?",
+          "I'm here to chat about food and recipes. What's your specialty?",
+          "Exploring the culinary world? I've got tasty suggestions!",
+          "Ready to whip up something delicious? Let's dive into cooking!"
+        ]
+      },
+      {
+        "tag": "fitness",
+        "patterns": [
+          "I like to work out",
+          "I like aerobics",
+          "exercise",
+          "Let's get fit",
+          "Healthy lifestyle",
+          "Exercise enthusiast",
+          "Workout routines",
+          "Fitness goals",
+          "I need fitness tips",
+          "Exercise is my therapy"
+        ],
+        "responses": [
+          "You can try Zumba dance today!",
+          "You can try Pilates today",
+          "Staying active is fantastic! What's your favorite workout?",
+          "Fitness is a journey! What's your next goal?",
+          "Let's get those endorphins flowing! What's your workout plan today?",
+          "Exercise is a great way to boost your mood. What's on your fitness agenda?",
+          "Workout time! What's your preferred exercise routine?",
+          "Fitness enthusiast alert! What's your go-to exercise?",
+          "I'm here to help you achieve your fitness goals. What's your target today?",
+          "Exercise is a great therapy. Let's stay active together!"
+        ]
+      },
+      {
+        "tag": "travel",
+        "patterns": [
+          "I like to travel",
+          "I like exploring different places",
+          "travelling",
+          "Wanderlust",
+          "Adventure seeker",
+          "Dream destinations",
+          "Travel recommendations",
+          "Let's plan a trip",
+          "Travel stories",
+          "I need travel tips"
+        ],
+        "responses": [
+          "You can visit a zoo today!",
+          "You can visit an amusement park today",
+          "Exploring new places is amazing! Any dream destination on your mind?",
+          "Traveling broadens horizons! Where do you want to go next?",
+          "Let's embark on a virtual travel adventure. Where shall we explore today?",
+          "Wanderlust calling! Any specific place you're itching to visit?",
+          "Travel stories are the best! Any memorable trips to share?",
+          "Planning a trip? I'm here with travel tips and suggestions!",
+          "Let's plan your next adventure! Where's your wanderlust taking you?",
+          "Travel is life! Let's discuss your travel bucket list."
+        ]
+      }
+    ]
+  }
+  
